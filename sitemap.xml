@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>http://miguiacatamarca.com/</loc>
+  <image:image>
+    <image:loc>http://miguiacatamarca.com/images/logo.png</image:loc>
+  </image:image>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/rubro/servicios</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/rubro/comercios</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/rubro/profesionales</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/rubro/educacion</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/rubro/delivery</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+<url>
+  <loc>http://miguiacatamarca.com/contacto</loc>
+  <lastmod>2013-09-30T23:52:18+00:00</lastmod>
+</url>
+
+</urlset>

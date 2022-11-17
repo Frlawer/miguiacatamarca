@@ -1,0 +1,1077 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+    font-family: 'Miguia';
+    src:url('../fonts/Miguia.eot');
+    src:url('../fonts/Miguia.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Miguia.woff') format('woff'),
+        url('../fonts/Miguia.ttf') format('truetype'),
+        url('../fonts/Miguia.svg#Miguia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'Miguia';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="i-"] {
+*/
+.i-office, .i-wrench, .i-book, .i-phone, .i-pushpin, .i-users, .i-briefcase, .i-mail, .i-google-plus, .i-facebook, .i-twitter, .i-pencil, .i-home, .i-location, .i-search, .i-gift, .i-food, .i-link, .i-bookmark, .i-cart, .i-quotes-left, .i-globe, .i-profile, .i-image, .i-film, .i-mobile, .i-checkmark, .i-user, .i-edit, .i-comment, .i-menu {
+    font-family: 'Miguia';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.i-office:before {
+    content: "\21";
+}
+.i-wrench:before {
+    content: "\22";
+}
+.i-book:before {
+    content: "\23";
+}
+.i-phone:before {
+    content: "\24";
+}
+.i-pushpin:before {
+    content: "\25";
+}
+.i-users:before {
+    content: "\26";
+}
+.i-briefcase:before {
+    content: "\27";
+}
+.i-mail:before {
+    content: "\28";
+}
+.i-google-plus:before {
+    content: "\29";
+}
+.i-facebook:before {
+    content: "\2a";
+}
+.i-twitter:before {
+    content: "\2b";
+}
+.i-pencil:before {
+    content: "\2c";
+}
+.i-home:before {
+    content: "\2d";
+}
+.i-location:before {
+    content: "\2e";
+}
+.i-search:before {
+    content: "\2f";
+}
+.i-gift:before {
+    content: "\30";
+}
+.i-food:before {
+    content: "\31";
+}
+.i-link:before {
+    content: "\32";
+}
+.i-bookmark:before {
+    content: "\33";
+}
+.i-cart:before {
+    content: "\34";
+}
+.i-quotes-left:before {
+    content: "\35";
+}
+.i-globe:before {
+    content: "\36";
+}
+.i-profile:before {
+    content: "\37";
+}
+.i-image:before {
+    content: "\38";
+}
+.i-film:before {
+    content: "\39";
+}
+.i-mobile:before {
+    content: "\3a";
+}
+.i-checkmark:before {
+    content: "\3b";
+}
+.i-user:before {
+    content: "\3c";
+}
+.i-edit:before {
+    content: "\3d";
+}
+.i-comment:before {
+    content: "\3e";
+}
+.i-menu:before {
+    content: "\3f";
+}
+
+
+a, li {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 82.667em;
+    min-height: 10em;
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #89867e;
+    background: #f9f9f9;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.main,
+.container > header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+
+/* Global CSS that are applied for all screen sizes */
+
+.nav ul {
+    max-width: 1240px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.nav li span {
+    display: block;
+}
+
+.nav a {
+    display: block;
+    color: rgba(249, 249, 249, .9);
+    text-decoration: none;
+    -webkit-transition: color .5s, background .5s, height .5s;
+    -moz-transition: color .5s, background .5s, height .5s;
+    -o-transition: color .5s, background .5s, height .5s;
+    -ms-transition: color .5s, background .5s, height .5s;
+    transition: color .5s, background .5s, height .5s;
+}
+
+.nav i{
+    /* Make the font smoother for Chrome */
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+.no-touch .nav ul:hover a {
+    color: rgba(249, 249, 249, .5);
+}
+
+.no-touch .nav ul:hover a:hover {
+    color: rgba(249, 249, 249, 0.99);
+}
+
+/* Adding some background color to the different menu items */
+
+.nav li:nth-child(6n+1) {
+    background: rgb(208, 101, 3);
+}
+
+.nav li:nth-child(6n+2) {
+    background: rgb(233, 147, 26);
+}
+
+.nav li:nth-child(6n+3) {
+    background: rgb(22, 145, 190);
+}
+
+.nav li:nth-child(6n+4) {
+    background: rgb(22, 107, 162);
+}
+
+.nav li:nth-child(6n+5) {
+    background: rgb(27, 54, 71);
+}
+
+.nav li:nth-child(6n+6) {
+    background: rgb(21, 40, 54);
+}
+
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+    /* Transforms the list into a horizontal navigation */
+    .nav li {
+        float: left;
+        width: 14.286%;
+        text-align: center;
+        -webkit-transition: border .5s;
+        -moz-transition: border .5s;
+        -o-transition: border .5s;
+        -ms-transition: border .5s;
+        transition: border .5s;
+    }
+
+    .nav a {
+        display: block;
+        width: auto;
+    }
+
+    /* hover, focused and active effects that add a little colored border to the different items */
+    .no-touch .nav li:nth-child(6n+1) a:hover,
+    .no-touch .nav li:nth-child(6n+1) a:active,
+    .no-touch .nav li:nth-child(6n+1) a:focus {
+        border-bottom: 4px solid rgb(174, 78, 1);
+    }
+
+    .no-touch .nav li:nth-child(6n+2) a:hover,
+    .no-touch .nav li:nth-child(6n+2) a:active,
+    .no-touch .nav li:nth-child(6n+2) a:focus {
+        border-bottom: 4px solid rgb(191, 117, 20);
+    }
+
+    .no-touch .nav li:nth-child(6n+3) a:hover,
+    .no-touch .nav li:nth-child(6n+3) a:active,
+    .no-touch .nav li:nth-child(6n+3) a:focus {
+        border-bottom: 4px solid rgb(12, 110, 149);
+    }
+
+    .no-touch .nav li:nth-child(6n+4) a:hover,
+    .no-touch .nav li:nth-child(6n+4) a:active,
+    .no-touch .nav li:nth-child(6n+4) a:focus {
+        border-bottom: 4px solid rgb(10, 75, 117);
+    }
+
+    .no-touch .nav li:nth-child(6n+5) a:hover,
+    .no-touch .nav li:nth-child(6n+5) a:active,
+    .no-touch .nav li:nth-child(6n+5) a:focus {
+        border-bottom: 4px solid rgb(16, 34, 44);
+    }
+
+    .no-touch .nav li:nth-child(6n+6) a:hover,
+    .no-touch .nav li:nth-child(6n+6) a:active,
+    .no-touch .nav li:nth-child(6n+6) a:focus {
+        border-bottom: 4px solid rgb(9, 18, 25);
+    }
+
+    /* Placing the icon */
+
+    .icon {
+        padding-top: 1.4em;
+    }
+
+    .icon + span {
+        margin-top: 2.1em;
+        -webkit-transition: margin .5s;
+        -moz-transition: margin .5s;
+        -o-transition: margin .5s;
+        -ms-transition: margin .5s;
+        transition: margin .5s;
+    }
+
+    /* Animating the height of the element*/
+    .nav a {
+        height: 9em;
+    }
+
+    .no-touch .nav a:hover ,
+    .nav a:active ,
+    .nav a:focus {
+        height: 10em;
+    }
+
+    /* Making the text follow the height animation */
+    .no-touch .nav a:hover .icon + span {
+        margin-top: 3.2em;
+        -webkit-transition: margin .5s;
+        -moz-transition: margin .5s;
+        -o-transition: margin .5s;
+        -ms-transition: margin .5s;
+        transition: margin .5s;
+    }
+
+    /* Positioning the icons and preparing for the animation*/
+    .nav i {
+        position: relative;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0.4em;
+        border-radius: 50%;
+        font-size: 1.8em;
+        box-shadow: 0 0 0 30px transparent;
+        background: rgba(255,255,255,0.1);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        -webkit-transition: box-shadow .6s ease-in-out;
+        -moz-transition: box-shadow .6s ease-in-out;
+        -o-transition: box-shadow .6s ease-in-out;
+        -ms-transition: box-shadow .6s ease-in-out;
+        transition: box-shadow .6s ease-in-out;
+    }
+
+    /* Animate the box-shadow to create the effect */
+    .no-touch .nav a:hover i,
+    .no-touch .nav a:active i,
+    .no-touch .nav a:focus i {
+        box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+        -webkit-transition: box-shadow .4s ease-in-out;
+        -moz-transition: box-shadow .4s ease-in-out;
+        -o-transition: box-shadow .4s ease-in-out;
+        -ms-transition: box-shadow .4s ease-in-out;
+        transition: box-shadow .4s ease-in-out;
+    }
+
+}
+
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+    /* Size and font adjustments to make it fit into the screen*/
+    .nav ul {
+        font-size: 1.2em;
+    }
+
+}
+
+/* The "tablet" and "mobile" version */
+
+@media (max-width: 49.938em) {
+
+    /* Instead of adding a border, we transition the background color */
+    .no-touch .nav ul li:nth-child(6n+1) a:hover,
+    .no-touch .nav ul li:nth-child(6n+1) a:active,
+    .no-touch .nav ul li:nth-child(6n+1) a:focus {
+        background: rgb(227, 119, 20);
+    }
+
+    .no-touch .nav li:nth-child(6n+2) a:hover,
+    .no-touch .nav li:nth-child(6n+2) a:active,
+    .no-touch .nav li:nth-child(6n+2) a:focus {
+        background: rgb(245, 160, 41);
+    }
+
+    .no-touch .nav li:nth-child(6n+3) a:hover,
+    .no-touch .nav li:nth-child(6n+3) a:active,
+    .no-touch .nav li:nth-child(6n+3) a:focus {
+        background: rgb(44, 168, 219);
+    }
+
+    .no-touch .nav li:nth-child(6n+4) a:hover,
+    .no-touch .nav li:nth-child(6n+4) a:active,
+    .no-touch .nav li:nth-child(6n+4) a:focus {
+        background: rgb(31, 120, 176);
+    }
+
+    .no-touch .nav li:nth-child(6n+5) a:hover,
+    .no-touch .nav li:nth-child(6n+5) a:active,
+    .no-touch .nav li:nth-child(6n+5) a:focus {
+        background: rgb(39, 70, 90);
+    }
+
+    .no-touch .nav li:nth-child(6n+6) a:hover,
+    .no-touch .nav li:nth-child(6n+6) a:active,
+    .no-touch .nav li:nth-child(6n+6) a:focus {
+        background: rgb(32, 54, 68);
+    }
+
+    .nav ul li {
+        -webkit-transition: background 0.5s;
+        -moz-transition: background 0.5s;
+        -o-transition: background 0.5s;
+        -ms-transition: background 0.5s;
+        transition: background 0.5s;
+    }
+
+}
+
+/* CSS specific to the 2x3 columns version */
+@media (min-width:32.5em) and (max-width: 49.938em) {
+
+    /* Creating the 2 column layout using floating elements once again */
+    .nav li {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    .nav li:first-child{
+        width: 100%;
+    }
+
+    /* Adding some padding to make the elements look nicer*/
+    .nav a {
+        padding: 0.8em;
+    }
+
+    /* Displaying the icons on the left, and the text on the right side using inlin-block*/
+    .nav li span,
+    .nav li span.icon {
+        display: inline-block;
+    }
+
+    .nav li span.icon {
+        width: 50%;
+    }
+
+    .nav li .icon + span {
+        font-size: 1em;
+    }
+
+    .icon + span {
+        position: relative;
+        top: -0.2em;
+    }
+
+    /* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
+    .nav li i {
+        display: inline-block;
+        padding: 8% 9%;
+        border: 4px solid transparent;
+        border-radius: 50%;
+        font-size: 1.5em;
+        background: rgba(255,255,255,0.1);
+        -webkit-transition: border .5s;
+        -moz-transition: border .5s;
+        -o-transition: border .5s;
+        -ms-transition: border .5s;
+        transition: border .5s;
+    }
+
+    /* Transition effect on the border color */
+    .no-touch .nav li:hover i,
+    .no-touch .nav li:active i,
+    .no-touch .nav li:focus i {
+        border: 4px solid rgba(255,255,255,0.1);
+    }
+
+}
+
+/* Adapting the font size and width for smaller screns*/
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+
+    .nav li span.icon {
+        width: 50%;
+    }
+
+    .nav li .icon + span {
+        font-size: 0.9em;
+    }
+}
+
+/* Styling the toggle menu link and hiding it */
+.nav .navtoogle{
+    display: none;
+    width: 100%;
+    padding: 0.5em 0.5em 0.8em;
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+    font-weight: normal;
+    text-align: left;
+    color: rgb(7, 16, 15);
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    border-bottom: 4px solid rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.navtoogle i{
+    z-index:-1;
+}
+
+.icon-menu {
+    position: relative;
+    top: 3px;
+    line-height: 0;
+    font-size: 1.6em;
+}
+
+@media (max-width: 32.438em) {
+
+    /* Unhiding the styled menu link */
+    .nav .navtoogle{
+        margin: 0;
+        display: block;
+    }
+
+    /* Animating the height of the navigation when the button is clicked */
+
+    /* When JavaScript is disabled, we hide the menu */
+    .no-js .nav ul {
+        max-height: 30em;
+        overflow: hidden;
+    }
+
+    /* When JavaScript is enabled, we hide the menu */
+    .js .nav ul {
+        max-height: 0em;
+        overflow: hidden;
+    }
+
+    /* Displaying the menu when the user has clicked on the button*/
+    .js .nav .active + ul {
+        max-height: 30em;
+        overflow: hidden;
+        -webkit-transition: max-height .4s;
+        -moz-transition: max-height .4s;
+        -o-transition: max-height .4s;
+        -ms-transition: max-height .4s;
+        transition: max-height .4s;
+    }
+
+    /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+
+    .nav li span {
+        display: inline-block;
+        height: 100%;
+    }
+
+    .nav a {
+        padding: 0.5em;
+    }
+
+    .icon + span {
+        margin-left: 1em;
+        font-size: 0.8em;
+    }
+
+    /* Adding a left border of 8 px with a different color for each menu item*/
+    .nav li:nth-child(6n+1) {
+        border-left: 8px solid rgb(174, 78, 1);
+    }
+
+    .nav li:nth-child(6n+2) {
+        border-left: 8px solid rgb(191, 117, 20);
+    }
+
+    .nav li:nth-child(6n+3) {
+        border-left: 8px solid rgb(13, 111, 150);
+    }
+
+    .nav li:nth-child(6n+4) {
+        border-left: 8px solid rgb(10, 75, 117);
+    }
+
+    .nav li:nth-child(6n+5) {
+        border-left: 8px solid rgb(16, 34, 44);
+    }
+
+    .nav li:nth-child(6n+6) {
+        border-left: 8px solid rgb(9, 18, 25);
+    }
+
+    /* make the nav bigger on touch screens */
+    .touch .nav a {
+        padding: 0.8em;
+    }
+}
+
+
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #4E4E4E;
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+}
+/*clear*/
+.cl {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+
+/*texto*/
+a{
+    color:#0f89df;
+}
+a:hover{
+    text-decoration:none
+}
+a img{
+    border:0;
+}
+
+h2{
+    font-size: 20px;
+     color:#2a2a2a;
+      font-weight: normal;
+      text-transform: uppercase;
+      font-family: georgia, sans-serif;
+      padding-bottom:8px;
+      margin-right:5px
+    }
+h2 span{
+    color:#0F89DF;
+}
+h3{
+    color:#0f89df;
+    font-size: 15px;
+    font-family: "trebuchet ms", sans-serif;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+h4{
+    color:#0f89df;
+    font-size: 12px;
+    font-family: "trebuchet ms", sans-serif;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+/*main*/
+.main-1 {
+    border:4px solid gray;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 960px;
+}
+.ancho {
+    margin: 0 auto 10px;
+    max-width: 960px;
+    width: 100%;
+}
+/*encabezado*/
+header {
+    height: 102px;
+    margin: 0 auto;
+    max-width: 82.667em;
+    padding: 2em;
+}
+header .login {
+    display: inline;
+    float: right;
+    padding-top: 35px;
+}
+header .login p {
+    text-align: right;
+}
+header .login a {
+    margin-left: 18px;
+    text-align: right;
+}
+
+/*logo*/
+h1#logo {
+    background-image: none;
+    display: inline;
+    float: left;
+    font-size: 1em;
+    height: 48px;
+    line-height: 0;
+    padding-top: 23px;
+    width: 264px;
+}
+h1#logo a {
+    background: url("") repeat scroll 0 0 transparent;
+    display: block;
+    background-size: 100%;
+}
+
+/*contenido total*/
+.central{
+    padding-top: 8px;
+}
+/*contenido central*/
+.central {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
+article{
+    margin-left: 4.6%;
+    max-width: 600px;
+    width: 69%;
+}
+/*aside*/
+aside {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 3px 3px 0 0;
+    display: inline;
+    float: right;
+    margin-right: 4.6%;
+    max-width: 300px;
+    width: 27%;
+}
+aside .top {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+aside ul.blue {
+    border-bottom: 2px solid #DEDEDE;
+    font-size: 12px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+/*footer*/
+footer {
+    height: 102px;
+    margin: 0 auto;
+    max-width: 82.667em;
+    padding: 2em;
+}
+footer .right-area{
+    float: right;
+    display: inline;
+    padding-top:25px;
+    padding-right:17px
+}
+footer a.sm-logo{
+    background:url(images/fashion.gif);
+    width:155px;
+    height:34px;
+    float: left;
+    text-indent: -4000px;
+    line-height: 0;
+    font-size: 0;
+    margin:16px 0 0 20px;
+    text-align: left;
+}
+
+
+/*articulo*/
+.simple {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    float: left;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    padding-left: 1.99em;
+    padding-top: 12px;
+}
+.simple a {
+    color: #0F89DF;
+    text-decoration: none;
+}
+.simple a.image {
+    display: inline;
+    float: left;
+}
+.simple a.image img {
+    border: 1px solid #DEDEDE;
+    display: block;
+    padding: 4px;
+}
+/*lista rubros*/
+.rubro {
+    min-height: 150px;
+}
+.rubro h3 {
+    border-radius: 0.4em;
+    border: 1px solid #1691BE;
+    margin-bottom: 10px;
+    margin: auto 1.7em;
+    padding: 5px;
+    text-align: center;
+}
+ul.lista_categorias {
+    display: block;
+    list-style: none;
+    padding: 5px 2em;
+}
+ul.lista_categorias li {
+    float: left;
+    padding: 5px 5px;
+    width: 50%;
+}
+ul.lista_categorias li a {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+/*lista usuarios*/
+.lista_usuarios td, .lista_usuarios th{
+    border:1px dashed gray;
+    padding: 2px;
+}
+.lista_letra{
+    color:black;
+    width: 100%;
+}
+/******************************/
+.container.small {
+    width: 960px;
+}
+
+/*form contacto 1*/
+
+
+.form-1 {
+    /* Size & position */
+    width: 300px;
+    margin: 10px auto 30px;
+    padding: 10px;
+    position: relative; /* For the submit button positioning */
+
+    /* Styles */
+    box-shadow:
+        0 0 1px rgba(0, 0, 0, 0.3),
+        0 3px 7px rgba(0, 0, 0, 0.3),
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    background: white; /* Fallback */
+    background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+.form-1 .field {
+    position: relative; /* For the icon positioning */
+}
+
+.form-1 .field i {
+    /* Size and position */
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 36px;
+    width: 36px;
+
+    /* Line */
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0 0 rgba(255, 255, 255, 0.7);
+
+    /* Styles */
+    color: #777777;
+    text-align: center;
+    line-height: 42px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+}
+
+.form-1 input[type=text],
+.form-1 input[type=email],
+.form-1 textarea {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    /* Size and position */
+    width: 100%;
+    padding: 10px 18px 10px 20px;
+
+    /* Styles */
+    border: none; /* Remove the default border */
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.1),
+        inset 0 3px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #777;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+
+.form-1 input[type=text], .form-1 input[type=email] {
+    margin-bottom: 10px;
+}
+
+.form-1 input[type=text]:hover ~ i,
+.form-1 input[type=email]:hover ~ i,,
+.form-1 textarea:hover ~ i {
+    color: #52cfeb;
+}
+
+.form-1 input[type=text]:focus ~ i,
+.form-1 input[type=email]:focus ~ i,,
+.form-1 textarea:focus ~ i {
+    color: #42A2BC;
+}
+
+.form-1 input[type=text]:focus,
+.form-1 input[type=email]:focus,
+.form-1 textarea:focus,
+.form-1 button[type=submit]:focus {
+    outline: none;
+}
+
+.form-1 .submit {
+    /* Size and position */
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 17px;
+    right: -25px;
+    padding: 10px;
+    z-index: 2;
+
+    /* Styles */
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow:
+        0 0 2px rgba(0,0,0,0.1),
+        0 3px 2px rgba(0,0,0,0.1),
+        inset 0 -3px 2px rgba(0,0,0,0.2);
+}
+
+.form-1 .submit:after {
+    /* Size and position */
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -2px;
+    left: 30px;
+
+    /* Styles */
+    background: #ffffff;
+
+    /* Other masks trick */
+    box-shadow: 0 62px white, -32px 31px white;
+}
+
+.form-1 button {
+    /* Size and position */
+    width: 100%;
+    height: 100%;
+    margin-top: -1px;
+
+    /* Icon styles */
+    font-size: 1.4em;
+    line-height: 1.75;
+    color: white;
+
+    /* Styles */
+    border: none; /* Remove the default border */
+    border-radius: inherit;
+    background: #52cfeb; /* Fallback */
+    background: -moz-linear-gradient(#52cfeb, #42A2BC);
+    background: -ms-linear-gradient(#52cfeb, #42A2BC);
+    background: -o-linear-gradient(#52cfeb, #42A2BC);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#52cfeb), to(#42A2BC));
+    background: -webkit-linear-gradient(#52cfeb, #42A2BC);
+    background: linear-gradient(#52cfeb, #42A2BC);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        0 1px 2px rgba(0,0,0,0.35),
+        inset 0 3px 2px rgba(255,255,255,0.2),
+        inset 0 -3px 2px rgba(0,0,0,0.1);
+
+    cursor: pointer;
+}
+
+.form-1 button:hover,
+.form-1 button[type=submit]:focus {
+    background: #52cfeb;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.form-1 button:active {
+    background: #42A2BC;
+    box-shadow:
+        inset 0 0 5px rgba(0,0,0,0.3),
+        inset 0 3px 4px rgba(0,0,0,0.3);
+}
+
+/* tweets */
+#tweetMGC li {
+    display: inline-block;
+}
+
+.tweet-autor {
+    display: inline;
+}
+
+.tweet-autor span.TweetAuthor-avatar {
+    display: block;
+}
+
+.tweet-autor span.TweetAuthor-name {
+    display: inline;
+}
+
+.tweet-autor span.TweetAuthor-screenName {
+    display: inline;
+}
+
+.tweet-autor img {
+    float: left;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 4px solid gray;
+}
